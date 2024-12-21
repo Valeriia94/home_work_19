@@ -52,16 +52,12 @@ console.log("Після %=:", myTest);
  * Використовуючи властивості та методи об'єкта Math, присвойте змінним та відобразіть у консолі.
  */
 
-// константа Pi → myPi
 var myPi = Math.PI;
 console.log("myPi:", myPi); 
-// округлене значення числа 89.279 → myRound
 var myRound = Math.round(89.279);
 console.log("myRound:", myRound);
-// випадкове число між 0..10 (10 не включено) → myRandom
-var myRandom = Math.random() * 10; // Генерує випадкове число між 0 і 10
+var myRandom = Math.random() * 10; 
 console.log("myRandom:", myRandom);
-// 3 у 5 степені → myPow
 var myPow = Math.pow(3, 5); // 3^5
 console.log("myPow:", myPow);
 
@@ -114,8 +110,8 @@ var strObj = {
     length: "Мама мыла раму, рама мыла маму".length
   };
   var strReplace = strObj.str
-  .replace("мыла", "моет") // Заміна першого входження "мыла"
-  .replace("рама", "Рама") // Заміна "рама" на "Рама"
+  .replace("мыла", "моет") 
+  .replace("рама", "Рама") 
   .replace("мыла", "держит");
   console.log("strReplace:", strReplace);
 // strReplace
